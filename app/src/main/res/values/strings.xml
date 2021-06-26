@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">sport</string>
+
+    //
+
+    <string name="title">Sport test</string>
+
+    //
+    <string name="title_qus1">1- Who was the top scorer in the 2019/20 Premier League season?</string>
+    <string name="first_radio_qus1">Jamie Vardy</string>
+    <string name="second_radio_qus1">Eden Hazard</string>
+    <string name="third_radio_qus1">Ronaldo</string>
+    //
+    <string name="title_qus2">2- Jurgen Klopp began his manegeral career ayt which German club?</string>
+    <string name="first_radio_qus2">Dortmund</string>
+    <string name="second_radio_qus2">Mainz 05</string>
+    <string name="third_radio_qus2">Bayern munich</string>
+    //
+    <string name="title_qus3">3- Which footballer has scored the most goals in World Cup history?</string>
+    <string name="first_radio_qus3">Messi</string>
+    <string name="second_radio_qus3">Miroslav Klose</string>
+    <string name="third_radio_qus3">Ronaldo</string>
+    //
+    <string name="title_qus4">4- Which female tennis player has won the highest number of Grand Slams?</string>
+    <string name="first_radio_qus4">Emma</string>
+    <string name="second_radio_qus4">Novak</string>
+    <string name="third_radio_qus4">Margaret Court</string>
+    //
+    <string name="title_qus5">5- In which year did Roger Federer win his first Wimbledon title?</string>
+    <string name="hint_text_qus5">Write your answer</string>
+
+</resources>
