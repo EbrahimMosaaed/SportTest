@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,153 +20,105 @@
             android:textSize="@dimen/title" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/ques_bottom_padding"
-            android:text="@string/title_qus1"
-            android:textSize="@dimen/ques_size"
-            android:textStyle="bold" />
-
+            style="@style/text_view_style"
+            android:text="@string/title_qus1" />
 
         <RadioGroup
-            android:id="@+id/raido_group_one"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:id="@+id/Question_one_group"
+            style="@style/radio_group_view_style">
 
             <RadioButton
                 android:id="@+id/first_radio_qus1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/first_radio_qus1" />
 
             <RadioButton
                 android:id="@+id/second_radio_qus1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/second_radio_qus1" />
 
             <RadioButton
                 android:id="@+id/third_radio_qus1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/third_radio_qus1" />
         </RadioGroup>
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/ques_bottom_padding"
-            android:text="@string/title_qus2"
-            android:textSize="@dimen/ques_size"
-            android:textStyle="bold" />
-
+            style="@style/text_view_style"
+            android:text="@string/title_qus2" />
 
         <RadioGroup
-            android:id="@+id/raido_group_two"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:id="@+id/Question_two_group"
+            style="@style/radio_group_view_style">
 
             <RadioButton
                 android:id="@+id/first_radio_qus2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/first_radio_qus2" />
 
             <RadioButton
                 android:id="@+id/second_radio_qus2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/second_radio_qus2" />
 
             <RadioButton
                 android:id="@+id/third_radio_qus2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/third_radio_qus2" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/ques_bottom_padding"
-            android:text="@string/title_qus3"
-            android:textSize="@dimen/ques_size"
-
-            android:textStyle="bold" />
+            style="@style/text_view_style"
+            android:text="@string/title_qus3" />
 
         <RadioGroup
-            android:id="@+id/raido_group_three"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:id="@+id/Question_three_group"
+            style="@style/radio_group_view_style">
 
             <RadioButton
                 android:id="@+id/first_radio_qus3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/first_radio_qus3" />
 
             <RadioButton
                 android:id="@+id/second_radio_qus3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/second_radio_qus3" />
 
             <RadioButton
                 android:id="@+id/third_radio_qus3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/third_radio_qus3" />
         </RadioGroup>
 
-
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/ques_bottom_padding"
-            android:text="@string/title_qus4"
-            android:textSize="@dimen/ques_size"
-            android:textStyle="bold" />
+            style="@style/text_view_style"
+            android:text="@string/title_qus4" />
 
         <RadioGroup
-            android:id="@+id/raido_group_four"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:id="@+id/Question_four_group"
+            style="@style/radio_group_view_style">
 
             <RadioButton
                 android:id="@+id/first_radio_qus4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/first_radio_qus4" />
 
             <RadioButton
                 android:id="@+id/second_radio_qus4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/second_radio_qus4" />
 
             <RadioButton
                 android:id="@+id/third_radio_qus4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/radio_button_style"
                 android:text="@string/third_radio_qus4" />
         </RadioGroup>
 
-
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/title_qus5"
-            android:textSize="@dimen/ques_size"
-            android:textStyle="bold" />
+            style="@style/text_view_style"
+            android:text="@string/title_qus5" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,35 +127,32 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkbox_one"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/Question_Five_OptionA"
+                style="@style/check_box_style"
                 android:text="2019" />
+
             <CheckBox
-                android:id="@+id/checkbox_two"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/Question_Five_OptionB"
+                style="@style/check_box_style"
                 android:text="1905" />
+
             <CheckBox
-                android:id="@+id/checkbox_three"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/Question_Five_OptionC"
+                style="@style/check_box_style"
                 android:text="2018" />
         </LinearLayout>
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/title_qus6"
-            android:textSize="@dimen/ques_size"
-            android:textStyle="bold" />
+            style="@style/text_view_style"
+            android:text="@string/title_qus6" />
 
         <EditText
             android:id="@+id/edit_text_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_text_qus6" />
+            android:hint="@string/hint_text_qus6"
+            android:inputType="number" />
 
 
         <Button
