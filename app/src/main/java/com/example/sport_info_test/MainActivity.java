@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onEditText() {
-//        mQuestionSixAnswer = binding.editTextValue;
         String value = binding.editTextValue.getText().toString().trim();
         if (value.equals("2003") && !correctResults.contains(R.id.edit_text_value))
             // right answer
